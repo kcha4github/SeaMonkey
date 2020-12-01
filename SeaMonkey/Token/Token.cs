@@ -45,5 +45,17 @@ namespace SeaMonkey.Token
         public const string ELSE = "ELSE";
         public const string RETURN = "RETURN";
 
+
+        private Dictionary<string, string> keywords = new Dictionary<string, string>()
+        {
+            { "fn", FUNCTION },
+            { "let", LET },
+            { "true", TRUE },
+            { "false", FALSE },
+            { "if", IF },
+            { "else", ELSE },
+            { "return", RETURN },
+        };
+
     }
 }
